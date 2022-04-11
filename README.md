@@ -99,4 +99,9 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? Filebeat-config.yml this is the file you update to run the playbook. We had to add elk server private ip to the host file then we are able to add filebeat and metricbeat.
 - _Which URL do you navigate to in order to check that the ELK server is running? http://136.35.167.114:5601/app/kibana
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc. nano playbook.yml to update it, add your ip to the file and update it, run playbook with ansible-playbook playbookfilebeat.yml.
+# Cloud Network
+This is a collection of Linux Scripts and Ansible Scripts from my CyberClass.
+
+Most of the scripts are used to configure cloud servers with different docker containers.
+
+The final setup was 4 servers running vulnerable DVWA containers along with a jump box and a server running an ELK stack container.
