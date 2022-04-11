@@ -32,7 +32,6 @@ What does Filebeat watch for? Filebeat watches for changes to the files, it gene
 What does Metricbeat record? Metricbeat records metrics from the operating system and services running on the server. Metricbeat uses Elasticsearch or Logstash which lets you visualize the metrics and statistics that it generates from the OS and running services.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name 	| Function | IP Address | Operating System |
 | jump box | gateway                     | 10.0.0.4 | Linux (ubuntu 18.04) |   |
