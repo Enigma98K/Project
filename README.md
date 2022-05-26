@@ -94,7 +94,6 @@ SSH into the control node and follow the steps below:
 - Update the filebeat-config.yml file to include host 10.1.0.4:5601
 - Run the playbook, and navigate to kibana (ELK GUI interface) to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Filebeat-playbook.yml Where do you copy it? /etc/ansible/files/filebeat.playbook.yml
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? Filebeat-config.yml this is the file you update to run the playbook. We had to add elk server private ip to the host file then we are able to add filebeat and metricbeat.
 - _Which URL do you navigate to in order to check that the ELK server is running? http://136.35.167.114:5601/app/kibana
